@@ -1,15 +1,26 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-watchlist-dev-170519-authRole",
-      "UnauthRoleArn": "arn:aws:iam::689430648121:role/amplify-watchlist-dev-170519-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::689430648121:role/amplify-watchlist-dev-170519-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-watchlist-dev-170519-deployment",
-      "UnauthRoleName": "amplify-watchlist-dev-170519-unauthRole",
-      "StackName": "amplify-watchlist-dev-170519",
-      "StackId": "arn:aws:cloudformation:us-east-1:689430648121:stack/amplify-watchlist-dev-170519/e97d01d0-c253-11eb-b069-0e3259ee6b3b",
-      "AmplifyAppId": "dm00a8grnt1c"
+      "AuthRoleName": "amplify-watchlist-dev-123156-authRole",
+      "UnauthRoleArn": "arn:aws:iam::689430648121:role/amplify-watchlist-dev-123156-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::689430648121:role/amplify-watchlist-dev-123156-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-watchlist-dev-123156-deployment",
+      "UnauthRoleName": "amplify-watchlist-dev-123156-unauthRole",
+      "StackName": "amplify-watchlist-dev-123156",
+      "StackId": "arn:aws:cloudformation:us-east-2:689430648121:stack/amplify-watchlist-dev-123156/fb4e4d30-fc53-11eb-880a-024edfb11b0c",
+      "AmplifyAppId": "d2wphz70str5ib"
+    },
+    "categories": {
+      "function": {
+        "watchlistPostConfirmation": {
+          "deploymentBucketName": "amplify-watchlist-dev-123156-deployment",
+          "s3Key": "amplify-builds/watchlistPostConfirmation-52516431707676676e74-build.zip"
+        }
+      },
+      "auth": {
+        "watchlist": {}
+      }
     }
   }
 }

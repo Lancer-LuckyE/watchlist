@@ -1,4 +1,5 @@
 import React from "react";
+import {AmplifySignOut} from "@aws-amplify/ui-react";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
@@ -20,6 +21,9 @@ export const Header = () => {
               <Link to={"/add"} className={"btn"}>
                 + Add
               </Link>
+            </li>
+            <li>
+              <AmplifySignOut/>
             </li>
           </ul>
         </div>
